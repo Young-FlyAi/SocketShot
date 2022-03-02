@@ -1,0 +1,99 @@
+<div id="sectionTitles">
+		<div id="sectionTitle1" class="sectionTitle3">Select Game</div>
+		<div id="sectionTitle2" class="sectionTitle3">Leaderboard</div>
+		<div id="sectionTitle3" class="sectionTitle3">Community</div>
+	</div>
+
+
+	<div id="serverSelection" class="columnSection">
+		<div id="serversHiddenMsg" style="display:none;">
+		Only the party leader can choose a game. To play now, either tell the leader to get a move on, or leave the party.
+		</div>
+		<div id="serverList" style="display:none">
+			{{servers}}
+		</div>
+		
+		<div id="serverLoginButtons">
+			(Not logged in)
+			<br>
+			Log in to customize your character, party up with friends, save your progress, and track stats!
+			<br>
+			<button id="createAccount" class="loginButtons" style="margin: 0px;" onclick="window.location.href='https://treatmetcalfgames.auth.us-east-2.amazoncognito.com/signup?response_type=code&client_id=70ru3b3jgosqa5fpre6khrislj&redirect_uri=https://socketshot.io/';">Create Account</button>
+			<br>
+			Or
+			<br>
+			<button id="logIn" class="loginButtons" style="margin: 0px;" onclick="window.location.href='https://treatmetcalfgames.auth.us-east-2.amazoncognito.com/login?response_type=code&client_id=70ru3b3jgosqa5fpre6khrislj&redirect_uri=https://socketshot.io/';">Log In</button>
+			<br>
+			<br>
+		</div>
+
+		<div class="learnToPlay">
+			<div class="learnToPlayTitle">
+				Controls:
+			</div>
+			<div class="controlsRow">
+				<div class="controlsElement">
+					<img class="controlsImage" src="/src/client/img/icons/wasd.png">
+					<div class="controlsText">Move</div>
+				</div>
+				<div class="controlsElement">
+					<img class="controlsImage" src="/src/client/img/icons/arrows.png">
+					<div class="controlsText">Shoot</div>
+				</div>
+				<div class="controlsElement">
+					<img class="controlsImage" src="/src/client/img/icons/space.png">
+					<div class="controlsText">Dash (while moving)</br>Cloak (while still)</div>
+				</div>
+			</div>
+			<div class="controlsRow" id="controlsRowTwo">
+				<div class="controlsElementSmall">
+					<img class="controlsImage" src="/src/client/img/icons/r.png">
+					<div class="controlsText">Reload</div>
+				</div>
+				<div class="controlsElementSmall">
+					<img class="controlsImage" src="/src/client/img/icons/qe.png">
+					<div class="controlsText">Change Gun</div>
+				</div>
+				<div class="controlsElementSmall">
+					<img class="controlsImage" src="/src/client/img/icons/shift.png">
+					<div class="controlsText">Utility</div>
+				</div>
+				<div class="controlsElementSmall">
+					<img class="controlsImage" src="/src/client/img/icons/enter.png">
+					<div class="controlsText">Chat</div>
+				</div>
+				<div class="controlsElementSmall">
+					<img class="controlsImage" src="/src/client/img/icons/esc.png">
+					<div class="controlsText">Scoreboard</div>
+				</div>
+			</div>
+
+
+			<div id="learnToPlayMore">
+				<a href="#" onclick="showMoreControls()">more controls</a>
+			</div>
+
+		</div>
+		
+	</div>
+
+
+	<div id="leaderboards" class="columnSection">
+	</br>
+
+	<div id="tablePrint">
+		<table class="statsTable">
+		  <tr>
+			<th>Rank</th>
+			<th>Username</th>
+			<th>Rating</th>
+			<th>Wins</th>
+		  </tr>
+		  <tr>
+			<td></td>
+			<td>Loading Leaderboard...</td>
+			<td></td>
+			<td></td>
+		  </tr>
+		</table>
+	</div>
