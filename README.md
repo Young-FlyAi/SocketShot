@@ -18,3 +18,4 @@
 		<div id="playNowButtonWrapperDiv">
 			<button id="bigAssPlayNow" class="RWButton heavyTextShadow" onclick="getJoinableServer({server:'any'})">Play Now!</button> https://socketshot.io/			<br>
 	
+# Created by [great game studio]
