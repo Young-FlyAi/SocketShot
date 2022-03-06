@@ -29,10 +29,11 @@ Play Now: https://young-flyai.github.io/SocketShot-Game/
 
 Smooth graphics and addicting gameplay			
 
+# Game Control
+![Game Control](https://user-images.githubusercontent.com/100531989/156944888-a95d970e-6283-450f-b1f5-6f65f46fcd3e.png)
 
 
-
-
+# What The Game Looks Like (Filmed By [@Phenomenal Games](https://www.youtube.com/channel/UC0BRc5p9h4HmrMOt4clFvyg))
 https://user-images.githubusercontent.com/100531989/156944333-cfef24a5-ec45-4678-b5e5-43516ab7dca6.mp4
 
 
