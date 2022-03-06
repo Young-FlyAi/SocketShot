@@ -24,7 +24,7 @@ Play Now: https://young-flyai.github.io/SocketShot-Game/
 		
 		
 	
-# Created by [Treatmet]
+# Created by [Treatmetcalf]
 
 Smooth graphics and addicting gameplay			
 
