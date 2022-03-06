@@ -1,7 +1,6 @@
-# SocketShot
 
 
-
+![image](https://user-images.githubusercontent.com/100531989/156943797-735816f8-186a-4b90-9051-5104c2fbea1f.png)></h1>  
 
 	
 </div>
@@ -15,8 +14,16 @@
 	<div id="homepageBanner">
 		<h1 style="filter: drop-shadow(0 0 0.35rem black);">Welcome to the SocketShot Alpha</h1>
 		<h2 style="filter: drop-shadow(0 0 0.35rem black);">Free-to-Play Top Down Multiplayer Shooter</h2>
-		<div id="playNowButtonWrapperDiv">
-			<button id="bigAssPlayNow" class="RWButton heavyTextShadow" onclick="getJoinableServer({server:'any'})">Play Now!</button> https://socketshot.io/			<br>
+Play Now: https://young-flyai.github.io/SocketShot-Game/
+
+
+
+## Running `Socketshot.io`
+### Running `online`
+- open a new tab
+- go to: https://young-flyai.github.io/SocketShot-Game/
+		
+		
 	
 # Created by [great game studio]
 
