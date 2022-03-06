@@ -19,9 +19,8 @@ Play Now: https://young-flyai.github.io/SocketShot-Game/
 
 
 ## Running `Socketshot.io`
-### Running `online`
-- open a new tab
-- go to: https://young-flyai.github.io/SocketShot-Game/
+## Server `online`
+
 		
 		
 	
