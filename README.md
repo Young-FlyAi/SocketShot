@@ -14,7 +14,7 @@
 	<div id="homepageBanner">
 		<h1 style="filter: drop-shadow(0 0 0.35rem black);">Welcome to the SocketShot Alpha</h1>
 		<h2 style="filter: drop-shadow(0 0 0.35rem black);">Free-to-Play Top Down Multiplayer Shooter</h2>
-Play Now: https://young-flyai.github.io/SocketShot-Game/
+Play Now: https://socketshot.io/
 
 
 
